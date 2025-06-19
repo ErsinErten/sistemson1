@@ -1,0 +1,829 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\sitesondeneme.bundle.scp.css",
+      "PackagePath": "staticwebassets\\sitesondeneme.r6ffq6ih4o.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\1-064084.png",
+      "PackagePath": "staticwebassets\\images\\1-064084.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\1-0f469f.png",
+      "PackagePath": "staticwebassets\\images\\1-0f469f.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\1-18fe2e.png",
+      "PackagePath": "staticwebassets\\images\\1-18fe2e.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\1-1d7d4f.png",
+      "PackagePath": "staticwebassets\\images\\1-1d7d4f.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\1-22f853.png",
+      "PackagePath": "staticwebassets\\images\\1-22f853.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\1-244_large-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\1-244_large-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\1-2893a4.png",
+      "PackagePath": "staticwebassets\\images\\1-2893a4.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\1-29a395.png",
+      "PackagePath": "staticwebassets\\images\\1-29a395.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\1-2e3a1d.png",
+      "PackagePath": "staticwebassets\\images\\1-2e3a1d.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\1-87e02d.png",
+      "PackagePath": "staticwebassets\\images\\1-87e02d.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\1-91b607.png",
+      "PackagePath": "staticwebassets\\images\\1-91b607.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\1-caf109.png",
+      "PackagePath": "staticwebassets\\images\\1-caf109.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\1-d7d4a6.png",
+      "PackagePath": "staticwebassets\\images\\1-d7d4a6.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\2-243_large-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\2-243_large-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\2-723145.png",
+      "PackagePath": "staticwebassets\\images\\2-723145.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\2-89a1c9.png",
+      "PackagePath": "staticwebassets\\images\\2-89a1c9.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\2-97be90.png",
+      "PackagePath": "staticwebassets\\images\\2-97be90.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\2-9e0956.png",
+      "PackagePath": "staticwebassets\\images\\2-9e0956.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\2-a48755.png",
+      "PackagePath": "staticwebassets\\images\\2-a48755.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\2-ad2c38.png",
+      "PackagePath": "staticwebassets\\images\\2-ad2c38.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\2-b0b07f.png",
+      "PackagePath": "staticwebassets\\images\\2-b0b07f.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\2-cb82b5.png",
+      "PackagePath": "staticwebassets\\images\\2-cb82b5.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\2-d01cdc.png",
+      "PackagePath": "staticwebassets\\images\\2-d01cdc.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\2-e0f39d.png",
+      "PackagePath": "staticwebassets\\images\\2-e0f39d.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\2-f16a0e.png",
+      "PackagePath": "staticwebassets\\images\\2-f16a0e.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\22-810060.png",
+      "PackagePath": "staticwebassets\\images\\22-810060.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\3-14d07b.png",
+      "PackagePath": "staticwebassets\\images\\3-14d07b.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\3-188d52.png",
+      "PackagePath": "staticwebassets\\images\\3-188d52.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\3-1d087f.png",
+      "PackagePath": "staticwebassets\\images\\3-1d087f.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\3-243_large-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\3-243_large-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\3-3f7b0e.png",
+      "PackagePath": "staticwebassets\\images\\3-3f7b0e.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\3-4f9be7.png",
+      "PackagePath": "staticwebassets\\images\\3-4f9be7.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\3-63b2a4.png",
+      "PackagePath": "staticwebassets\\images\\3-63b2a4.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\3-6e80e8.png",
+      "PackagePath": "staticwebassets\\images\\3-6e80e8.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\3-703f0b.png",
+      "PackagePath": "staticwebassets\\images\\3-703f0b.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\3-9fb363.png",
+      "PackagePath": "staticwebassets\\images\\3-9fb363.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\3-e68a14.png",
+      "PackagePath": "staticwebassets\\images\\3-e68a14.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\3-e8282d.png",
+      "PackagePath": "staticwebassets\\images\\3-e8282d.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\3-f2b93d.png",
+      "PackagePath": "staticwebassets\\images\\3-f2b93d.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\4-0d8a97.png",
+      "PackagePath": "staticwebassets\\images\\4-0d8a97.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\4-233_large-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\4-233_large-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\4-3e4421.png",
+      "PackagePath": "staticwebassets\\images\\4-3e4421.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\4-68743e.png",
+      "PackagePath": "staticwebassets\\images\\4-68743e.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\4-b373d9.png",
+      "PackagePath": "staticwebassets\\images\\4-b373d9.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\4-c921ed.png",
+      "PackagePath": "staticwebassets\\images\\4-c921ed.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\5-644d83.png",
+      "PackagePath": "staticwebassets\\images\\5-644d83.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\5-8a9492.png",
+      "PackagePath": "staticwebassets\\images\\5-8a9492.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\5-8f2fb2.png",
+      "PackagePath": "staticwebassets\\images\\5-8f2fb2.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\5-962328.png",
+      "PackagePath": "staticwebassets\\images\\5-962328.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\5-a90c93.png",
+      "PackagePath": "staticwebassets\\images\\5-a90c93.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\5-b4e7c2.png",
+      "PackagePath": "staticwebassets\\images\\5-b4e7c2.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\EkranKarti.png",
+      "PackagePath": "staticwebassets\\images\\EkranKarti.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\Kategoriler\\EkranKarti.png",
+      "PackagePath": "staticwebassets\\images\\Kategoriler\\EkranKarti.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\Kategoriler\\Laptop.png",
+      "PackagePath": "staticwebassets\\images\\Kategoriler\\Laptop.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\Kategoriler\\Masaüstü.png",
+      "PackagePath": "staticwebassets\\images\\Kategoriler\\Masaüstü.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\Kategoriler\\Monitor.png",
+      "PackagePath": "staticwebassets\\images\\Kategoriler\\Monitor.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\Kategoriler\\Mouse.png",
+      "PackagePath": "staticwebassets\\images\\Kategoriler\\Mouse.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\Kategoriler\\Telefon.png",
+      "PackagePath": "staticwebassets\\images\\Kategoriler\\Telefon.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\Kategoriler\\islemci.png",
+      "PackagePath": "staticwebassets\\images\\Kategoriler\\islemci.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\Kategoriler\\klavye.png",
+      "PackagePath": "staticwebassets\\images\\Kategoriler\\klavye.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\Kategoriler\\kulaklik.png",
+      "PackagePath": "staticwebassets\\images\\Kategoriler\\kulaklik.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\amd.png",
+      "PackagePath": "staticwebassets\\images\\amd.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\aoc.png",
+      "PackagePath": "staticwebassets\\images\\aoc.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\app-store.png",
+      "PackagePath": "staticwebassets\\images\\app-store.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\asus.png",
+      "PackagePath": "staticwebassets\\images\\asus.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\banner.png",
+      "PackagePath": "staticwebassets\\images\\banner.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\cart.png",
+      "PackagePath": "staticwebassets\\images\\cart.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\default.png",
+      "PackagePath": "staticwebassets\\images\\default.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\gggg-2ab621.png",
+      "PackagePath": "staticwebassets\\images\\gggg-2ab621.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\intel.png",
+      "PackagePath": "staticwebassets\\images\\intel.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\kategori1.png",
+      "PackagePath": "staticwebassets\\images\\kategori1.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\kategori2.png",
+      "PackagePath": "staticwebassets\\images\\kategori2.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\kategori3.png",
+      "PackagePath": "staticwebassets\\images\\kategori3.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\loot1.png",
+      "PackagePath": "staticwebassets\\images\\loot1.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\man.jpg",
+      "PackagePath": "staticwebassets\\images\\man.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\nvidia.png",
+      "PackagePath": "staticwebassets\\images\\nvidia.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\oyuncuk.png",
+      "PackagePath": "staticwebassets\\images\\oyuncuk.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\ozel-urun.png",
+      "PackagePath": "staticwebassets\\images\\ozel-urun.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\ozelurun.png",
+      "PackagePath": "staticwebassets\\images\\ozelurun.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\play-store.png",
+      "PackagePath": "staticwebassets\\images\\play-store.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\rampag.png",
+      "PackagePath": "staticwebassets\\images\\rampag.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\rampage1.png",
+      "PackagePath": "staticwebassets\\images\\rampage1.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\rampage2.png",
+      "PackagePath": "staticwebassets\\images\\rampage2.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\rampage3.png",
+      "PackagePath": "staticwebassets\\images\\rampage3.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\rampage4.png",
+      "PackagePath": "staticwebassets\\images\\rampage4.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\razerk.png",
+      "PackagePath": "staticwebassets\\images\\razerk.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\s1.png",
+      "PackagePath": "staticwebassets\\images\\s1.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\s2.png",
+      "PackagePath": "staticwebassets\\images\\s2.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\sam1 (1).png",
+      "PackagePath": "staticwebassets\\images\\sam1 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\sam1 (2).png",
+      "PackagePath": "staticwebassets\\images\\sam1 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\sam1 (3).png",
+      "PackagePath": "staticwebassets\\images\\sam1 (3).png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\sam1 (4).png",
+      "PackagePath": "staticwebassets\\images\\sam1 (4).png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\slider1.png",
+      "PackagePath": "staticwebassets\\images\\slider1.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\slider2.png",
+      "PackagePath": "staticwebassets\\images\\slider2.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\slider3.png",
+      "PackagePath": "staticwebassets\\images\\slider3.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\slider4.png",
+      "PackagePath": "staticwebassets\\images\\slider4.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\slider5.png",
+      "PackagePath": "staticwebassets\\images\\slider5.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\slider6.png",
+      "PackagePath": "staticwebassets\\images\\slider6.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\tel1 (1).png",
+      "PackagePath": "staticwebassets\\images\\tel1 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\tel1 (2).png",
+      "PackagePath": "staticwebassets\\images\\tel1 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\tel1 (3).png",
+      "PackagePath": "staticwebassets\\images\\tel1 (3).png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\tel1 (4).png",
+      "PackagePath": "staticwebassets\\images\\tel1 (4).png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\woman.png",
+      "PackagePath": "staticwebassets\\images\\woman.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-1-3c5e5c-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-1-3c5e5c-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-1-3c5e5c.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-1-3c5e5c.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-1-a27a78-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-1-a27a78-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-1-e64846-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-1-e64846-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-2-2a05e5-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-2-2a05e5-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-2-2a05e5.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-2-2a05e5.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-2-8b864e-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-2-8b864e-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-2-efedcd-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-2-efedcd-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-2024-07-09t175400437-ea788f-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-2024-07-09t175400437-ea788f-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-2024-07-09t175406471-daddd4-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-2024-07-09t175406471-daddd4-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-2024-07-09t175420386-696ab8-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-2024-07-09t175420386-696ab8-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-2024-07-09t175446025-3b1e0a-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-2024-07-09t175446025-3b1e0a-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-3-70394e-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-3-70394e-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-3-70394e.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-3-70394e.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-3-8f4540-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-3-8f4540-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-3-c3e4f6-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-3-c3e4f6-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-40-85cf55-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-40-85cf55-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-42-7a3802-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-42-7a3802-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-42a231-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-42a231-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-43-b10861-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-43-b10861-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-44-8ae5f5-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-44-8ae5f5-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-5-839ffc.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-5-839ffc.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-6-3f5e8b.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-6-3f5e8b.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-7-331ca1.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-7-331ca1.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-72-f3142f.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-72-f3142f.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-73-db2608.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-73-db2608.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-74-57991e.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-74-57991e.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-75-dfded4.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-75-dfded4.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-8-ab6107.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-8-ab6107.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-8c0c80-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-8c0c80-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-8c0c80.jpg",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-8c0c80.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-e46e89-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-e46e89-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\images\\yeni-proje-f20fa3-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\yeni-proje-f20fa3-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\sedae\\OneDrive\\Masaüstü\\sitesondeneme\\sitesondeneme\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.sitesondeneme.props",
+      "PackagePath": "build\\sitesondeneme.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.sitesondeneme.props",
+      "PackagePath": "buildMultiTargeting\\sitesondeneme.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.sitesondeneme.props",
+      "PackagePath": "buildTransitive\\sitesondeneme.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.sitesondeneme.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.sitesondeneme.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

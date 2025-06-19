@@ -1,0 +1,206 @@
+﻿@model List<sitesondeneme.Models.Order>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Siparişlerim - Shopla</title>
+    <link rel="stylesheet" href="~/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+
+        .orders-container {
+            max-width: 900px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 25px 30px;
+            border-radius: 8px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+        }
+
+        .order-card {
+            border: 1px solid #eee;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+
+        .order-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+            .order-header h3 {
+                font-weight: 600;
+                color: #ff523b;
+                font-size: 1.1rem;
+            }
+
+        .order-total {
+            font-weight: 500;
+            color: #555;
+        }
+
+        table.order-items {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+            table.order-items th,
+            table.order-items td {
+                padding: 10px 8px;
+                border-bottom: 1px solid #ddd;
+                text-align: left;
+                font-size: 0.95rem;
+            }
+
+            table.order-items th {
+                background-color: #fff0f0;
+                color: #ff523b;
+            }
+
+        {
+            .order-header
+
+        {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 8px;
+        }
+
+        }
+    </style>
+</head>
+<body style="background: radial-gradient(#fff, #ffd6d6);">
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="~/images/logo.png" width="125px">
+            </div>
+            <nav>
+                <nav>
+                    <ul>
+                        <li><a href="@Url.Action("Index", "Home")">Ana Sayfa</a></li>
+                        <li><a href="@Url.Action("Products", "Product")">Ürünler</a></li>
+                        <li><a href="@Url.Action("iletisim", "Home")">İletişim</a></li>
+                        <li><a href="@Url.Action("Orders", "Order")">Siparişlerim</a></li>
+
+
+                        @if (ViewData["Username"] != null)
+                        {
+                            <li style="font-weight:bold; color:cornflowerblue;">Hoşgeldin, @ViewData["Username"]!</li>
+                            <li><a href="@Url.Action("Logout", "Account")">Çıkış Yap</a></li>
+                        }
+                        else
+                        {
+                            <li><a href="@Url.Action("Account", "Account")">Hesap</a></li>
+                        }
+                    </ul>
+                </nav>
+
+            </nav>
+            <a href="/Cart/Cart" class="cart-icon">
+                <i class="fa fa-shopping-bag"></i> Sepetim
+                @if (ViewBag.CartItemCount != null && ViewBag.CartItemCount > 0)
+                {
+                    <span class="cart-count">@ViewBag.CartItemCount</span>
+                }
+            </a>
+
+        </div>
+    </div>
+
+    <div class="small-container">
+        <div class="orders-container">
+            <h2>Siparişlerim</h2>
+
+            @if (!Model.Any())
+            {
+                <p>Henüz bir siparişiniz bulunmamaktadır.</p>
+            }
+            else
+            {
+                @foreach (var order in Model)
+                {
+                    <div class="order-card">
+                        <div class="order-header">
+                            <h3>Sipariş Tarihi: @order.OrderDate.ToString("dd.MM.yyyy HH:mm")</h3>
+                            <span class="order-total">Toplam Tutar: @order.TotalAmount.ToString("C")</span>
+                        </div>
+
+                        <table class="order-items">
+                            <thead>
+                                <tr>
+                                    <th>Ürün</th>
+                                    <th>Adet</th>
+                                    <th>Birim Fiyat</th>
+                                    <th>Tutar</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in order.Items)
+                                {
+                                    <tr>
+                                        <td>@item.Product?.Name</td>
+                                        <td>@item.Quantity</td>
+                                        <td>@item.Product?.Price.ToString("C")</td>
+                                        <td>@(item.Quantity * (item.Product?.Price ?? 0))</td>
+                                    </tr>
+
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Uygulamamızı İndirin</h3>
+                    <p>Android veya IOS Cihazınıza Uygulamamızı İndirin.</p>
+                    <div class="app-logo">
+                        <img src="/images/play-store.png" />
+                        <img src="/images/app-store.png" />
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="/images/logo.png" />
+                    <p>Elektronik ürünlerde uygun fiyat ve garantili alışverişin adresi.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Hızlı Linkler</h3>
+                    <ul>
+                        <li>Kullanım Koşulları</li>
+                        <li>Sıkça Sorulan Sorular (SSS)</li>
+                        <li>Gizlilik Politikası</li>
+                        <li>İade ve Değişim Koşulları</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Bizi Takip Edin</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr />
+            <p class="haklar">© 2025 Shopla. Tüm hakları saklıdır.</p>
+        </div>
+    </div>
+
+</body>
+</html>

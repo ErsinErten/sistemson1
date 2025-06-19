@@ -1,0 +1,708 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\controllers\\sellercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\controllers\\sellercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\views\\cart\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\views\\cart\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\views\\account\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\views\\account\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\views\\cart\\completepurchase.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\views\\cart\\completepurchase.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\views\\home\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\views\\home\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\views\\home\\iletisim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\views\\home\\iletisim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\views\\order\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\views\\order\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\views\\product\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\views\\product\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\views\\product\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\views\\product\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\views\\product\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\views\\product\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\views\\seller\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\views\\seller\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\views\\product\\sellereditproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\views\\product\\sellereditproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\views\\product\\selleraddproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\views\\product\\selleraddproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\models\\productdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\models\\productdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\migrations\\20250528161840_addusernametoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\migrations\\20250528161840_addusernametoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\migrations\\20250528140927_addprofileimagepathtouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\migrations\\20250528140927_addprofileimagepathtouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\migrations\\20250528131135_adduseridtosession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\migrations\\20250528131135_adduseridtosession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\migrations\\20250528130537_addsellertoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\migrations\\20250528130537_addsellertoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\migrations\\20250528130347_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\migrations\\20250528130347_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|c:\\users\\sedae\\onedrive\\masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\wwwroot\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C7BCF6B9-C545-466A-A369-6DC7FAE7603C}|sitesondeneme\\sitesondeneme.csproj|solutionrelative:sitesondeneme\\wwwroot\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Cart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "sitesondeneme\\Views\\Cart\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Cart\\Checkout.cshtml",
+              "RelativeToolTip": "sitesondeneme\\Views\\Cart\\Checkout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T16:27:47.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Cart\\cart.cshtml",
+              "RelativeDocumentMoniker": "sitesondeneme\\Views\\Cart\\cart.cshtml",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Cart\\cart.cshtml",
+              "RelativeToolTip": "sitesondeneme\\Views\\Cart\\cart.cshtml",
+              "ViewState": "AgIAAEwBAAAAAAAAAAAYwGEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T03:54:46.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "account.cshtml",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Account\\account.cshtml",
+              "RelativeDocumentMoniker": "sitesondeneme\\Views\\Account\\account.cshtml",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Account\\account.cshtml",
+              "RelativeToolTip": "sitesondeneme\\Views\\Account\\account.cshtml",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAJoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T03:54:33.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Models\\User.cs",
+              "RelativeDocumentMoniker": "sitesondeneme\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Models\\User.cs",
+              "RelativeToolTip": "sitesondeneme\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:26:31.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Models\\Products.cs",
+              "RelativeDocumentMoniker": "sitesondeneme\\Models\\Products.cs",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Models\\Products.cs",
+              "RelativeToolTip": "sitesondeneme\\Models\\Products.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:26:21.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "sitesondeneme\\Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Models\\Comment.cs",
+              "RelativeToolTip": "sitesondeneme\\Models\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:25:44.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SellerController.cs",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Controllers\\SellerController.cs",
+              "RelativeDocumentMoniker": "sitesondeneme\\Controllers\\SellerController.cs",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Controllers\\SellerController.cs",
+              "RelativeToolTip": "sitesondeneme\\Controllers\\SellerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T17:32:25.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "sitesondeneme\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "sitesondeneme\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAGIBAAAAAAAAAAAIwHQBAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T18:33:12.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CompletePurchase.cshtml",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Cart\\CompletePurchase.cshtml",
+              "RelativeDocumentMoniker": "sitesondeneme\\Views\\Cart\\CompletePurchase.cshtml",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Cart\\CompletePurchase.cshtml",
+              "RelativeToolTip": "sitesondeneme\\Views\\Cart\\CompletePurchase.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T16:27:50.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Home\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "sitesondeneme\\Views\\Home\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Home\\AccessDenied.cshtml",
+              "RelativeToolTip": "sitesondeneme\\Views\\Home\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T16:27:52.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "iletisim.cshtml",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Home\\iletisim.cshtml",
+              "RelativeDocumentMoniker": "sitesondeneme\\Views\\Home\\iletisim.cshtml",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Home\\iletisim.cshtml",
+              "RelativeToolTip": "sitesondeneme\\Views\\Home\\iletisim.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAABYAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T16:27:54.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Home\\index.cshtml",
+              "RelativeDocumentMoniker": "sitesondeneme\\Views\\Home\\index.cshtml",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Home\\index.cshtml",
+              "RelativeToolTip": "sitesondeneme\\Views\\Home\\index.cshtml",
+              "ViewState": "AgIAALwBAAAAAAAAAAAAAIoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T14:25:30.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Orders.cshtml",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Order\\Orders.cshtml",
+              "RelativeDocumentMoniker": "sitesondeneme\\Views\\Order\\Orders.cshtml",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Order\\Orders.cshtml",
+              "RelativeToolTip": "sitesondeneme\\Views\\Order\\Orders.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAFkAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T03:54:20.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EditProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Product\\EditProduct.cshtml",
+              "RelativeDocumentMoniker": "sitesondeneme\\Views\\Product\\EditProduct.cshtml",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Product\\EditProduct.cshtml",
+              "RelativeToolTip": "sitesondeneme\\Views\\Product\\EditProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T18:10:47.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Product\\ProductDetails.cshtml",
+              "RelativeDocumentMoniker": "sitesondeneme\\Views\\Product\\ProductDetails.cshtml",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Product\\ProductDetails.cshtml",
+              "RelativeToolTip": "sitesondeneme\\Views\\Product\\ProductDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T18:10:57.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "products.cshtml",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Product\\products.cshtml",
+              "RelativeDocumentMoniker": "sitesondeneme\\Views\\Product\\products.cshtml",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Product\\products.cshtml",
+              "RelativeToolTip": "sitesondeneme\\Views\\Product\\products.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAKcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T18:10:51.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Seller\\Profile.cshtml",
+              "RelativeDocumentMoniker": "sitesondeneme\\Views\\Seller\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Seller\\Profile.cshtml",
+              "RelativeToolTip": "sitesondeneme\\Views\\Seller\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T17:30:34.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SellerEditProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Product\\SellerEditProduct.cshtml",
+              "RelativeDocumentMoniker": "sitesondeneme\\Views\\Product\\SellerEditProduct.cshtml",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Product\\SellerEditProduct.cshtml",
+              "RelativeToolTip": "sitesondeneme\\Views\\Product\\SellerEditProduct.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T16:31:40.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SellerAddProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Product\\SellerAddProduct.cshtml",
+              "RelativeDocumentMoniker": "sitesondeneme\\Views\\Product\\SellerAddProduct.cshtml",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Product\\SellerAddProduct.cshtml",
+              "RelativeToolTip": "sitesondeneme\\Views\\Product\\SellerAddProduct.cshtml",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAACIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T16:31:33.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "sitesondeneme\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "sitesondeneme\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:20:58.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "sitesondeneme\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Controllers\\CartController.cs",
+              "RelativeToolTip": "sitesondeneme\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T14:17:42.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "sitesondeneme\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "sitesondeneme\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T16:32:17.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "sitesondeneme\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "sitesondeneme\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T16:32:15.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Product\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "sitesondeneme\\Views\\Product\\AddProduct.cshtml",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Views\\Product\\AddProduct.cshtml",
+              "RelativeToolTip": "sitesondeneme\\Views\\Product\\AddProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T18:10:50.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "sitesondeneme\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Models\\Order.cs",
+              "RelativeToolTip": "sitesondeneme\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T18:27:59.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "sitesondeneme\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Models\\CartItem.cs",
+              "RelativeToolTip": "sitesondeneme\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:25:39.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Program.cs",
+              "RelativeDocumentMoniker": "sitesondeneme\\Program.cs",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Program.cs",
+              "RelativeToolTip": "sitesondeneme\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:30:35.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProductDetailViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Models\\ProductDetailViewModel.cs",
+              "RelativeDocumentMoniker": "sitesondeneme\\Models\\ProductDetailViewModel.cs",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Models\\ProductDetailViewModel.cs",
+              "RelativeToolTip": "sitesondeneme\\Models\\ProductDetailViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:26:13.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "sitesondeneme\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "sitesondeneme\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:25:58.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "sitesondeneme\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "sitesondeneme\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:25:32.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20250528161840_AddUsernameToProduct.cs",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Migrations\\20250528161840_AddUsernameToProduct.cs",
+              "RelativeDocumentMoniker": "sitesondeneme\\Migrations\\20250528161840_AddUsernameToProduct.cs",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Migrations\\20250528161840_AddUsernameToProduct.cs",
+              "RelativeToolTip": "sitesondeneme\\Migrations\\20250528161840_AddUsernameToProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:25:31.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20250528140927_AddProfileImagePathToUser.cs",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Migrations\\20250528140927_AddProfileImagePathToUser.cs",
+              "RelativeDocumentMoniker": "sitesondeneme\\Migrations\\20250528140927_AddProfileImagePathToUser.cs",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Migrations\\20250528140927_AddProfileImagePathToUser.cs",
+              "RelativeToolTip": "sitesondeneme\\Migrations\\20250528140927_AddProfileImagePathToUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:25:30.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20250528131135_AddUserIdToSession.cs",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Migrations\\20250528131135_AddUserIdToSession.cs",
+              "RelativeDocumentMoniker": "sitesondeneme\\Migrations\\20250528131135_AddUserIdToSession.cs",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Migrations\\20250528131135_AddUserIdToSession.cs",
+              "RelativeToolTip": "sitesondeneme\\Migrations\\20250528131135_AddUserIdToSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:25:29.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20250528130537_AddSellerToProduct.cs",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Migrations\\20250528130537_AddSellerToProduct.cs",
+              "RelativeDocumentMoniker": "sitesondeneme\\Migrations\\20250528130537_AddSellerToProduct.cs",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Migrations\\20250528130537_AddSellerToProduct.cs",
+              "RelativeToolTip": "sitesondeneme\\Migrations\\20250528130537_AddSellerToProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:25:27.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20250528130347_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Migrations\\20250528130347_InitialCreate.cs",
+              "RelativeDocumentMoniker": "sitesondeneme\\Migrations\\20250528130347_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Migrations\\20250528130347_InitialCreate.cs",
+              "RelativeToolTip": "sitesondeneme\\Migrations\\20250528130347_InitialCreate.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAQwLMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:25:04.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "sitesondeneme\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "sitesondeneme\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:25:00.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "sitesondeneme\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "sitesondeneme\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-18T16:20:49.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\wwwroot\\style.css",
+              "RelativeDocumentMoniker": "sitesondeneme\\wwwroot\\style.css",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\wwwroot\\style.css",
+              "RelativeToolTip": "sitesondeneme\\wwwroot\\style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgCAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-18T16:17:55.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "sitesondeneme\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "sitesondeneme\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T18:29:15.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "sitesondeneme\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\sedae\\OneDrive\\Masa\u00FCst\u00FC\\sitesondeneme\\sitesondeneme\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "sitesondeneme\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T14:17:43.006Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

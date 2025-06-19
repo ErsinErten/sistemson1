@@ -1,0 +1,403 @@
+﻿@model sitesondeneme.Models.ProductDetailViewModel
+
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@Model.Product.Name - Shopla</title>
+    <link rel="stylesheet" href="@Url.Content("~/style.css")" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+        body{
+        background: radial-gradient(#fff, #ffd6d6);
+        }
+
+        .fa-star, .fa-star-half-alt, .fa-star-o, .far.fa-star {
+            color: gold;
+            margin-right: 2px;
+        }
+
+
+        .btn {
+            background-color: cornflowerblue;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            cursor: pointer;
+            border-radius: 3px;
+            font-weight: 600;
+        }
+
+            .btn:hover {
+                background-color: royalblue;
+            }
+
+        .comment-section {
+            background: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 40px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .comment {
+            background: #f9f9f9;
+            border-radius: 10px;
+            padding: 15px 20px;
+            margin-bottom: 15px;
+            position: relative;
+            border-left: 5px solid cornflowerblue;
+        }
+
+            .comment strong {
+                color: #333;
+                font-size: 16px;
+            }
+
+            .comment small {
+                color: #777;
+                font-size: 13px;
+                display: block;
+                margin-bottom: 5px;
+            }
+
+            .comment p {
+                font-size: 15px;
+                margin: 10px 0;
+                line-height: 1.5;
+            }
+
+            .comment .rating {
+                margin-top: 5px;
+            }
+
+        .add-comment-form {
+            margin-top: 30px;
+        }
+
+            .add-comment-form textarea,
+            .add-comment-form select {
+                width: 100%;
+                padding: 10px;
+                border-radius: 6px;
+                border: 1px solid #ccc;
+                margin-bottom: 15px;
+                font-size: 14px;
+            }
+
+            .add-comment-form label {
+                font-weight: 600;
+                display: block;
+                margin-bottom: 5px;
+            }
+
+            .add-comment-form textarea {
+                resize: none;
+            }
+
+        .col-2 {
+            flex-basis: 50%;
+            min-width: 0px;
+            margin-bottom: 50px;
+        }
+
+            .col-2 img {
+                max-width: 80%;
+                padding: 100px 0;
+            }
+
+            .col-2 h1 {
+                font-size: 35px;
+                line-height: 35px;
+                margin: 25px 0;
+            }
+
+        .small-container {
+            max-width: 1280px;
+            margin: auto;
+        }
+
+        .row {
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="~/images/logo.png" width="125px">
+            </div>
+            <nav>
+                <nav> 
+                    <ul>
+                        <li><a href="@Url.Action("Index", "Home")">Ana Sayfa</a></li>
+                        <li><a href="@Url.Action("Products", "Product")">Ürünler</a></li>
+                        <li><a href="@Url.Action("iletisim", "Home")">İletişim</a></li>
+                        <li><a href="@Url.Action("Orders", "Order")">Siparişlerim</a></li>
+
+
+                        @if (ViewData["Username"] != null)
+                        {
+                            <li style="font-weight:bold; color:cornflowerblue;">Hoşgeldin, @ViewData["Username"]!</li>
+                            <li><a href="@Url.Action("Logout", "Account")">Çıkış Yap</a></li>
+                        }
+                        else
+                        {
+                            <li><a href="@Url.Action("Account", "Account")">Hesap</a></li>
+                        }
+                    </ul>
+                </nav>
+
+            </nav>
+            <a href="/Cart/Cart" class="cart-icon">
+                <i class="fa fa-shopping-bag"></i> Sepetim
+                @if (ViewBag.CartItemCount != null && ViewBag.CartItemCount > 0)
+                {
+                    <span class="cart-count">@ViewBag.CartItemCount</span>
+                }
+            </a>
+        </div>
+    </div>
+
+    <div class="small-container tekli-urun">
+        <div class="row">
+            <div class="col-2">
+                <img src="@Url.Content(Model.Product.ImagePath ?? "~/images/default.png")" style="width: 100%;" id="ProductImg" />
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="@Url.Content(Model.Product.ImagePath ?? "~/images/default.png")" width="100%" class="small-img" />
+                    </div>
+                    <div class="small-img-col">
+                        <img src="@Url.Content(Model.Product.ImagePath2 ?? "~/images/default.png")" width="100%" class="small-img" />
+                    </div>
+                    <div class="small-img-col">
+                        <img src="@Url.Content(Model.Product.ImagePath3 ?? "~/images/default.png")" width="100%" class="small-img" />
+                    </div>
+                    <div class="small-img-col">
+                        <img src="@Url.Content(Model.Product.ImagePath4 ?? "~/images/default.png")" width="100%" class="small-img" />
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-2">
+                <p>Anasayfa / @Model.Product.Category</p>
+                <h1>@Model.Product.Name</h1>
+                <div style="display: flex; align-items: center; gap: 20px; margin: 10px 0;">
+                    <div style="display: flex; align-items: center;">
+                        <div>
+                            @{
+                                var avg = Math.Round(Model.AverageRating, 1);
+                                int fullStars = (int)avg;
+                                bool halfStar = (avg - fullStars) >= 0.5;
+                                int emptyStars = 5 - fullStars - (halfStar ? 1 : 0);
+                            }
+                            @for (int i = 0; i < fullStars; i++)
+                            {
+                                <i class="fa fa-star"></i>
+                            }
+                            @if (halfStar)
+                            {
+                                <i class="fa fa-star-half-alt"></i>
+                            }
+                            @for (int i = 0; i < emptyStars; i++)
+                            {
+                                <i class="far fa-star"></i>
+                            }
+                            <span> (@avg / 5)</span>
+                        </div>
+                    </div>
+
+                    <h4 style="margin: 0;">@String.Format("{0:N2} TL", Model.Product.Price)</h4>
+                </div>
+
+                <form asp-action="AddToCart" asp-controller="Cart" method="post">
+                    <input type="hidden" name="productId" value="@Model.Product.Id" />
+                    <label for="quantity"><strong>Adet:</strong></label>
+                    <input type="number" name="quantity" id="quantity" value="1" min="1" style="width: 60px; margin: 10px 0;" />
+                    <button type="submit" class="btn">Sepete Ekle</button>
+                </form>
+
+                <h3>Ürün Detayları <i class="fa fa-indent"></i></h3>
+                <p style="white-space: pre-line;">@Model.Product.Description</p>
+                <br />
+                <div style="margin-top: 30px; padding: 15px; border: 1px solid #ddd; border-radius: 10px; background-color: #f8f8f8;">
+                    <h4 style="color: #333; margin-bottom: 10px;"><i class="fas fa-store"></i> Satıcı Bilgileri</h4>
+                    <ul style="list-style-type: none; padding-left: 0;">
+                        <li>
+                            <strong>Satıcı:</strong> @Model.Product.Seller.Username
+                            <i class="fa fa-check-circle" style="color:#1DA1F2; margin-left:5px;" title="Onaylı Satıcı"></i>
+                        </li>
+
+                        <a href="@Url.Action("Profile", "Seller", new { id = Model.Product.SellerId })">
+                            Satıcının Profiline Git
+                        </a>
+
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="small-container comment-section">
+        <h3>Yorumlar (@(Model.Comments?.Count ?? 0))</h3>
+
+        @if (TempData["CommentError"] != null)
+        {
+            <p style="color:red;">@TempData["CommentError"]</p>
+        }
+
+        @if (Model.Comments != null && Model.Comments.Any())
+        {
+            foreach (var comment in Model.Comments)
+            {
+                <div class="comment">
+                    <strong>@comment.UserName</strong>
+                    <small>@comment.DatePosted.ToString("g")</small>
+                    <p>@comment.Text</p>
+                    <div class="rating">
+                        @for (int i = 0; i < comment.Rating; i++)
+                        {
+                            <i class="fa fa-star"></i>
+                        }
+                        @for (int i = comment.Rating; i < 5; i++)
+                        {
+                            <i class="far fa-star"></i>
+                        }
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p>Henüz yorum yok.</p>
+        }
+
+        @if (ViewData["Username"] != null)
+        {
+            <div class="add-comment-form">
+                <h4>Yorum Ekle</h4>
+                <form asp-action="AddComment" method="post">
+                    <input type="hidden" name="productId" value="@Model.Product.Id" />
+
+                    <label for="text">Yorumunuz:</label>
+                    <textarea name="text" id="text" rows="6" required></textarea>
+
+                    <label for="rating">Puanınız:</label>
+                    <select name="rating" id="rating" required>
+                        <option value="">Seçiniz</option>
+                        <option value="1">1 Yıldız</option>
+                        <option value="2">2 Yıldız</option>
+                        <option value="3">3 Yıldız</option>
+                        <option value="4">4 Yıldız</option>
+                        <option value="5">5 Yıldız</option>
+                    </select>
+
+                    <button type="submit" class="btn">Gönder</button>
+                </form>
+            </div>
+        }
+        else
+        {
+            <p><strong>Yorum yapabilmek için <a href="@Url.Action("Account", "Account")">giriş yapmanız</a> gerekmektedir.</strong></p>
+        }
+    </div>
+
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>İlgili Ürünler</h2>
+            <p><a href="@Url.Action("Products", "Product")" style="text-decoration:none; color:inherit;">Daha Fazlası</a></p>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <div class="row">
+            @if (Model.RelatedProducts != null && Model.RelatedProducts.Any())
+            {
+                foreach (var related in Model.RelatedProducts)
+                {
+                    <div class="col-4">
+                        <a asp-controller="Product" asp-action="ProductDetails" asp-route-id="@related.Id" style="text-decoration:none; color:inherit;">
+                            <img src="@Url.Content(related.ImagePath ?? "~/images/default.png")" />
+                            <h4>@related.Name</h4>
+                            <p>@String.Format("{0:N2} TL", related.Price)</p>
+                        </a>
+                    </div>
+                }
+            }
+            else
+            {
+                <p>İlgili ürün bulunamadı.</p>
+            }
+        </div>
+    </div>
+
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Uygulamamızı İndirin</h3>
+                    <p>Android veya IOS Cihazınıza Uygulamamızı İndirin.</p>
+                    <div class="app-logo">
+                        <img src="@Url.Content("~/images/play-store.png")" />
+                        <img src="@Url.Content("~/images/app-store.png")" />
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="@Url.Content("~/images/logo.png")" />
+                    <p>Elektronik ürünlerde uygun fiyat ve garantili alışverişin adresi.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Hızlı Linkler</h3>
+                    <ul>
+                        <li>Kullanım Koşulları</li>
+                        <li>Sıkça Sorulan Sorular (SSS)</li>
+                        <li>Gizlilik Politikası</li>
+                        <li>İade ve Değişim Koşulları</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Bizi Takip Edin</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr />
+            <p class="haklar">© 2025 Shopla. Tüm hakları saklıdır.</p>
+        </div>
+    </div>
+
+    <script>
+        var ProductImg = document.getElementById("ProductImg");
+        var SmallImg = document.getElementsByClassName("small-img");
+
+        for (let i = 0; i < SmallImg.length; i++) {
+            SmallImg[i].onclick = function () {
+                ProductImg.src = SmallImg[i].src;
+            };
+        }
+    </script>
+</body>
+</html>

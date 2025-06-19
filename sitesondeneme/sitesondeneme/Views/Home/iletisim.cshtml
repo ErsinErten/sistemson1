@@ -1,0 +1,143 @@
+﻿@{
+    ViewData["Title"] = "Bize Ulaşın";
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Bize Ulaşın - ShoplaTech</title>
+    <link rel="stylesheet" href="@Url.Content("~/style.css")" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page-title">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="~/images/logo.png" width="125px">
+                </div>
+                <nav>
+                    <nav>
+                        <ul>
+                            <li><a href="@Url.Action("Index", "Home")">Ana Sayfa</a></li>
+                            <li><a href="@Url.Action("Products", "Product")">Ürünler</a></li>
+                            <li><a href="@Url.Action("iletisim", "Home")">İletişim</a></li>
+                            <li><a href="@Url.Action("Orders", "Order")">Siparişlerim</a></li>
+
+
+                            @if (ViewData["Username"] != null)
+                            {
+                                <li style="font-weight:bold; color:cornflowerblue;">Hoşgeldin, @ViewData["Username"]!</li>
+                                <li><a href="@Url.Action("Logout", "Account")">Çıkış Yap</a></li>
+                            }
+                            else
+                            {
+                                <li><a href="@Url.Action("Account", "Account")">Hesap</a></li>
+                            }
+                        </ul>
+                    </nav>
+
+                </nav>
+                <a href="/Cart/Cart" class="cart-icon">
+                    <i class="fa fa-shopping-bag"></i> Sepetim
+                    @if (ViewBag.CartItemCount != null && ViewBag.CartItemCount > 0)
+                    {
+                        <span class="cart-count">@ViewBag.CartItemCount</span>
+                    }
+                </a>
+
+            </div>
+            </div>
+            </div>
+
+
+    <div class="small-container" style="margin-top: 60px; margin-bottom: 60px;">
+        <h1 class="title">Bize Ulaşın</h1>
+
+        <div class="row" style="gap: 40px;">
+
+            <div class="col-2">
+                <h2>İletişim Bilgileri</h2>
+                <p>
+                    <strong>Adres:</strong><br />
+                    İnönü Mahallesi, Teknoloji Sokak No:42, İstanbul
+                </p>
+                <p>
+                    <strong>Telefon:</strong><br />
+                    <a href="tel:+905551112233">+90 555 111 22 33</a>
+                </p>
+                <p>
+                    <strong>E-posta:</strong><br />
+                    <a href="mailto:destek@shoplatech.com">destek@shoplatech.com</a>
+                </p>
+                <p>
+                    <strong>Çalışma Saatleri:</strong><br />
+                    Hafta içi: 09:00 - 18:00<br />
+                    Cumartesi: 10:00 - 15:00
+                </p>
+            </div>
+
+            <div class="col-2">
+                <h2>Bize Mesaj Gönderin</h2>
+                <form method="post" action="#">
+                    <input type="text" name="name" placeholder="Adınız Soyadınız" required style="margin-bottom: 15px;" />
+                    <input type="email" name="email" placeholder="E-posta Adresiniz" required style="margin-bottom: 15px;" />
+                    <textarea name="message" rows="5" placeholder="Mesajınız..." required style="margin-bottom: 15px;"></textarea>
+                    <button type="submit" class="btn">Gönder</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <h2 class="title">Bizi Haritada Bulun</h2>
+        <div style="width: 100%; border-radius: 10px; overflow: hidden;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12048.9831711833!2d28.9744365!3d41.0082376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caba6171d8b5ed%3A0x44b6577d37e21d4d!2sİstanbul!5e0!3m2!1str!2str!4v1680000000000"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Uygulamamızı İndirin</h3>
+                    <p>Android veya IOS Cihazınıza Uygulamamızı İndirin.</p>
+                    <div class="app-logo">
+                        <img src="/images/play-store.png" />
+                        <img src="/images/app-store.png" />
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="/images/logo.png" />
+                    <p>Elektronik ürünlerde uygun fiyat ve garantili alışverişin adresi.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Hızlı Linkler</h3>
+                    <ul>
+                        <li>Kullanım Koşulları</li>
+                        <li>Sıkça Sorulan Sorular (SSS)</li>
+                        <li>Gizlilik Politikası</li>
+                        <li>İade ve Değişim Koşulları</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Bizi Takip Edin</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr />
+            <p class="haklar">© 2025 Shopla. Tüm hakları saklıdır.</p>
+        </div>
+    </div>
+
+</body>
+</html>

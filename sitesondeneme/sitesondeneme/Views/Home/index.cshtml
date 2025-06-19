@@ -1,0 +1,492 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Ticaret Sitesi</title>
+    <link rel="stylesheet" href="~/style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="@Url.Action("Index", "Home")">
+                        <img src="~/images/logo.png" width="125px" alt="Logo">
+                    </a>
+                </div>
+
+                <nav>
+                    <nav>
+                        <ul>
+                            <li><a href="@Url.Action("Index", "Home")">Ana Sayfa</a></li>
+                            <li><a href="@Url.Action("Products", "Product")">Ürünler</a></li>
+                            <li><a href="@Url.Action("iletisim", "Home")">İletişim</a></li>
+                            <li><a href="@Url.Action("Orders", "Order")">Siparişlerim</a></li>
+
+
+                            @if (ViewData["Username"] != null)
+                            {
+                                <li style="font-weight:bold; color:cornflowerblue;">Hoşgeldin, @ViewData["Username"]!</li>
+                                <li><a href="@Url.Action("Logout", "Account")">Çıkış Yap</a></li>
+                            }
+                            else
+                            {
+                                <li><a href="@Url.Action("Account", "Account")">Hesap</a></li>
+                            }
+                        </ul>
+                    </nav>
+
+                </nav>
+                <a href="/Cart/Cart" class="cart-icon">
+                    <i class="fa fa-shopping-bag"></i> Sepetim
+                    @if (ViewBag.CartItemCount != null && ViewBag.CartItemCount > 0)
+                    {
+                        <span class="cart-count">@ViewBag.CartItemCount</span>
+                    }
+                </a>
+
+
+            </div>
+
+
+            @if (TempData["LogoutMessage"] != null)
+            {
+                <div id="logoutMessage" style="
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background-color: #d4edda;
+        color: #155724;
+        border: 1px solid #c3e6cb;
+        border-radius: 5px;
+        padding: 10px 20px;
+        z-index: 9999;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+                    ">
+                    @TempData["LogoutMessage"]
+                </div>
+
+                <script>
+                    setTimeout(function () {
+                        var messageDiv = document.getElementById("logoutMessage");
+                        if (messageDiv) {
+                            messageDiv.style.display = "none";
+                        }
+                    }, 3000); // 3 saniye sonra gizle
+                </script>
+            }
+            @if (TempData["LoginMessage"] != null)
+            {
+                <div id="loginMessage" style="
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background-color: #d1ecf1;
+        color: #0c5460;
+        border: 1px solid #bee5eb;
+        border-radius: 5px;
+        padding: 10px 20px;
+        z-index: 9999;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+                    ">
+                    @TempData["LoginMessage"]
+                </div>
+
+                <script>
+                    setTimeout(function () {
+                        var messageDiv = document.getElementById("loginMessage");
+                        if (messageDiv) {
+                            messageDiv.style.display = "none";
+                        }
+                    }, 3000); // 3 saniyede kaybolur
+                </script>
+            }
+
+            <div class="row">
+                <div class="col-2">
+                    <h1>Shopla Aradığın Her şey Burada</h1>
+                    <p>Binlerce teknolojik ürünü tek tıkla keşfet,<br> güvenli ödeme ve hızlı teslimatla alışverişin keyfini çıkar! 🚀</p>
+                    <a href="@Url.Action("Products", "Product")" class="btn">Şimdi Keşfet &#8594;</a>
+
+                </div>
+                <div class="col-2">
+                    <div class="slider-container">
+                        <div class="slider" id="bannerSlider">
+                            <img src="/images/slider1.png" class="slide active">
+                            <img src="/images/slider2.png" class="slide">
+                            <img src="/images/slider3.png" class="slide">
+                            <img src="/images/slider4.png" class="slide">
+                            <img src="/images/slider5.png" class="slide">
+                            <img src="/images/slider6.png" class="slide">
+                        </div>
+                        <button class="prev" onclick="prevSlide()">&#10094;</button>
+                        <button class="next" onclick="nextSlide()">&#10095;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <style>
+        .category-item img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            transition: transform 0.3s ease;
+        }
+
+            .category-item img:hover {
+                transform: scale(1.05);
+            }
+
+        .category-divider {
+            width: 2px;
+            background-color: #ccc;
+            height: 150px;
+        }
+
+        .category-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .slider-container {
+            position: relative;
+            width: 100%;
+            max-width: 900px; 
+            margin: auto;
+            overflow: hidden;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
+        }
+
+        .slider {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .slide {
+            min-width: 100%;
+            border-radius: 20px;
+            object-fit: cover;
+        }
+
+            .slide.active {
+                display: block;
+            }
+
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.3); 
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            z-index: 10;
+            transition: background 0.3s ease;
+            border-radius: 50%; 
+        }
+
+            .prev:hover, .next:hover {
+                background: rgba(0, 0, 0, 0.6); 
+            }
+
+        .prev {
+            left: 10px;
+        }
+
+        .next {
+            right: 10px;
+        }
+
+
+        .slider-container img {
+            width: 150%;
+            border-radius: 10px;
+        }
+
+        #bannerSlider {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+            #bannerSlider .slide {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                opacity: 0;
+                transition: opacity 1s ease-in-out;
+                border-radius: 20px; 
+                object-fit: cover;
+                pointer-events: none; 
+            }
+
+                #bannerSlider .slide.active {
+                    opacity: 1;
+                    pointer-events: auto;
+                    position: relative; 
+                }
+    </style>
+
+
+
+    <div class="categories">
+        <div class="small-container">
+            <div class="category-container">
+                <div class="category-item text-center">
+                    <a href="/Product/Products?category=Monitor">
+                        <img src="~/images/rampage3.png" alt="Monitor">
+                    </a>
+                </div>
+                <div class="category-divider"></div>
+                <div class="category-item text-center">
+                    <a href="/Product/Products?category=Telefon">
+                        <img src="~/images/kategori2.png" alt="Telefon">
+                    </a>
+                </div>
+                <div class="category-divider"></div>
+                <div class="category-item text-center">
+                    <a href="/Product/Products?category=Masaüstü">
+                        <img src="~/images/s1.png" alt="Masaüstü">
+                    </a>
+                </div>
+                <div class="category-divider"></div>
+                <div class="category-item text-center">
+                    <a href="/Product/Products?category=EkranKarti">
+                        <img src="~/images/EkranKarti.png" alt="EkranKarti">
+                    </a>
+                </div>
+                <div class="category-divider"></div>
+                <div class="category-item text-center">
+                    <a href="/Product/Products?category=Kulaklik">
+                        <img src="~/images/razerk.png" alt="Kulaklık">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="small-container">
+        <h2 class="title">Öne Çıkan Ürünler</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="/Product/ProductDetails/4" style="text-decoration:none; color:inherit;">
+                    <img src="/images/rampag.png" alt="Masaüstü Bilgisayar">
+                    <h4>MSI GeForce RTX3050 Ventus 2X 6GB Ryzen 5 5500 16GB</h4>
+                    <br />
+
+                    <p>18.999,00 TL</p>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="/Product/ProductDetails/5" style="text-decoration:none; color:inherit;">
+                    <img src="/images/loot1.png" alt="Masaüstü Bilgisayar">
+                    <h4>AMD Ryzen 5 5600 ASUS Radeon RX 7600 8GB 16GB</h4>
+                    <br />
+
+                    <p>20.500,00 TL</p>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="/Product/ProductDetails/6" style="text-decoration:none; color:inherit;">
+                    <img src="/images/s2.png" alt="Masaüstü Bilgisayar">
+                    <h4>INTEL Core i5 14600KF ASUS GeForce RTX 5070 12GB 32GB</h4>
+                    <br />
+
+                    <p>55.000,00 TL</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="/images/yeni-proje-8c0c80-removebg-preview.png" class="offer-img" />
+                </div>
+                <div class="col-2">
+                    <p>SHOPLATECH.COM'A ÖZEL'</p>
+                    <h1>MSI GeForce RTX3050 Ventus 2X E OC 6GB Ryzen 5 5500 16GB</h1>
+                    <small>
+                        <i class="fa fa-square"> </i>  İşlemci Modeli : AMD Ryzen 5 <br />
+                        <i class="fa fa-square"> </i>  Anakart : MSI A520 Anakart <br />
+                        <i class="fa fa-square"> </i>  Ekran Kartı : MSI Nvidia GeForce RTX 3050 Ekran Kartı <br />
+                        <i class="fa fa-square"> </i>  RAM : 16GB <br />
+                        <i class="fa fa-square"> </i>  SSD : GoodRam 512GB PX500 NVMe SSD <br />
+                        <a href="/Product/ProductDetails/4" class="btn">Satın Al &#8594;</a>
+
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="yorumlar">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>“Siparişim ertesi gün elime ulaştı, kargo gerçekten çok hızlıydı. Ürün özenle paketlenmişti, hiçbir hasar yoktu. Bu kadar hızlı ve sorunsuz bir alışveriş beklemiyordum, açıkçası şaşırttılar. Artık teknoloji alışverişlerimde ilk bakacağım yer burası olur.”</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="/images/man.jpg" />
+                    <h3>Ahmet K****</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>“Ekran kartını piyasanın çok altında bir fiyata aldım. Ürün orijinal kutusunda, jelatinli şekilde geldi. Montajı yaptıktan sonra direkt çalıştı, herhangi bir sorun yaşamadım. Hem uygun fiyat hem güvenilirlik açısından gerçekten içim rahat alışveriş yaptım.”</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                    <img src="/images/woman.png" />
+                    <h3>Merve T****</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>“Sistem toplarken kararsız kaldığım birkaç parça vardı, canlı destekten yardım istedim. Sağ olsunlar çok ilgili davrandılar, parça uyumluluğu konusunda detaylıca yardımcı oldular. Siparişi verdikten sonra da montaj hızlı ve temiz yapılmıştı. Gözüm kapalı tavsiye ederim.”</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="/images/man.jpg" />
+                    <h3>Emre B****</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="markalar">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="/images/amd.png" />
+                </div>
+                <div class="col-5">
+                    <img src="/images/nvidia.png" />
+                </div>
+                <div class="col-5">
+                    <img src="/images/intel.png" />
+                </div>
+                <div class="col-5">
+                    <img src="/images/asus.png" />
+                </div>
+                <div class="col-5">
+                    <img src="/images/aoc.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Uygulamamızı İndirin</h3>
+                    <p>Android veya IOS Cihazınıza Uygulamamızı İndirin.</p>
+                    <div class="app-logo">
+                        <img src="/images/play-store.png" />
+                        <img src="/images/app-store.png" />
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="/images/logo.png" />
+                    <p>Elektronik ürünlerde uygun fiyat ve garantili alışverişin adresi.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Hızlı Linkler</h3>
+                    <ul>
+                        <li>Kullanım Koşulları</li>
+                        <li>Sıkça Sorulan Sorular (SSS)</li>
+                        <li>Gizlilik Politikası</li>
+                        <li>İade ve Değişim Koşulları</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Bizi Takip Edin</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr />
+            <p class="haklar">© 2025 Shopla. Tüm hakları saklıdır.</p>
+        </div>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('#bannerSlider .slide');
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                if (i === index) {
+                    slide.classList.add('active');
+                } else {
+                    slide.classList.remove('active');
+                }
+            });
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        showSlide(currentSlide);
+
+        setInterval(() => {
+            nextSlide();
+        }, 5000);
+    </script>
+
+
+
+
+</body>
+</html>

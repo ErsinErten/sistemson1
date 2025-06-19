@@ -1,0 +1,272 @@
+﻿@model List<sitesondeneme.Models.Product>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tüm Ürünler - Shopla</title>
+    <link rel="stylesheet" href="~/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+        .products-layout {
+            display: flex;
+            gap: 20px;
+        }
+
+        .category-sidebar {
+            flex: 0 0 20%; 
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 8px;
+            height: fit-content; 
+        }
+
+            .category-sidebar h3 {
+                margin-bottom: 15px;
+                font-size: 20px;
+            }
+
+            .category-sidebar ul {
+                list-style-type: none;
+                padding-left: 0;
+            }
+
+                .category-sidebar ul li {
+                    margin-bottom: 10px;
+                    padding: 6px 8px;
+                    border-radius: 6px;
+                    transition: background-color 0.3s ease;
+                }
+
+                    .category-sidebar ul li:hover {
+                        background-color: #fff0f0;
+                    }
+
+                    .category-sidebar ul li a {
+                        text-decoration: none;
+                        color: #333;
+                        display: inline-block;
+                        padding-bottom: 4px; 
+                        border-bottom: 2px solid transparent; 
+                        transition: border-color 0.3s ease;
+                    }
+
+                        .category-sidebar ul li a:hover {
+                            color: #ff523b;
+                            border-bottom-color: #ff523b; 
+                        }
+
+
+        .products-content {
+            flex: 1;
+            background: #fff;
+            border-radius: 8px;
+            padding: 40px;
+        }
+
+            .products-content .row.row-2 {
+                margin-bottom: 0;
+                padding-bottom: 0;
+            }
+
+
+        .col-4 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+            .col-4 img {
+                width: 100%;
+                height: auto;
+                border-radius: 8px;
+            }
+
+            .col-4 h4 {
+                margin: 10px 0 5px;
+            }
+
+            .col-4 p {
+                color: #555;
+            }
+    </style>
+
+    @{
+        var isSellerStr = Context.Session.GetString("IsSeller");
+        bool isSeller = !string.IsNullOrEmpty(isSellerStr) && bool.Parse(isSellerStr);
+    }
+
+    @if (isSeller)
+    {
+        <a href="@Url.Action("SellerAddProduct", "Product")"
+           style="color: white; background-color: red; padding: 8px 12px; border-radius: 5px; text-decoration: none; float: right; margin-top: 10px;">
+            Ürün Ekle
+        </a>
+    }
+</head>
+<body style="background: radial-gradient(#fff, #ffd6d6);">
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="~/images/logo.png" width="125px"> 
+            </div>
+            <nav>
+                <nav>
+                    <ul>
+                        <li><a href="@Url.Action("Index", "Home")">Ana Sayfa</a></li>
+                        <li><a href="@Url.Action("Products", "Product")">Ürünler</a></li>
+                        <li><a href="@Url.Action("iletisim", "Home")">İletişim</a></li>
+                        <li><a href="@Url.Action("Orders", "Order")">Siparişlerim</a></li>
+
+
+                        @if (ViewData["Username"] != null)
+                        {
+                            <li style="font-weight:bold; color:cornflowerblue;">Hoşgeldin, @ViewData["Username"]!</li>
+                            <li><a href="@Url.Action("Logout", "Account")">Çıkış Yap</a></li>
+                        }
+                        else
+                        {
+                            <li><a href="@Url.Action("Account", "Account")">Hesap</a></li>
+                        }
+                    </ul>
+                </nav>
+
+            </nav>
+            <a href="/Cart/Cart" class="cart-icon">
+                <i class="fa fa-shopping-bag"></i> Sepetim
+                @if (ViewBag.CartItemCount != null && ViewBag.CartItemCount > 0)
+                {
+                    <span class="cart-count">@ViewBag.CartItemCount</span>
+                }
+            </a>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <div class="products-layout">
+
+            <div class="category-sidebar">
+                <h3>Kategoriler</h3>
+                <ul>
+                    <li><a href="@Url.Action("Products", "Product")">Tüm Ürünler</a></li>
+                    <li><a href="@Url.Action("Products", "Product", new { category = "Masaüstü" })">Masaüstü PC</a></li>
+                    <li><a href="@Url.Action("Products", "Product", new { category = "Laptop" })">Laptop</a></li>
+                    <li><a href="@Url.Action("Products", "Product", new { category = "Kulaklik" })">Kulaklık</a></li>
+                    <li><a href="@Url.Action("Products", "Product", new { category = "Telefon" })">Telefon</a></li>
+                    <li><a href="@Url.Action("Products", "Product", new { category = "Monitor" })">Monitör</a></li>
+                    <li><a href="@Url.Action("Products", "Product", new { category = "Klavye" })">Klavye</a></li>
+                    <li><a href="@Url.Action("Products", "Product", new { category = "Mouse" })">Mouse</a></li>
+                    <li><a href="@Url.Action("Products", "Product", new { category = "EkranKarti" })">Ekran Kartı</a></li>
+                    <li><a href="@Url.Action("Products", "Product", new { category = "islemci" })">İşlemci</a></li>
+                </ul>
+            </div>
+
+
+            <div class="products-content">
+                <div class="row row-2">
+                    @{
+                        var category = ViewData["CurrentCategory"]?.ToString();
+                        var imageName = category?.ToLower().Replace(" ", "") + ".png";
+                    }
+                    @if (category != "Tüm Ürünler")
+                    {
+                        <div style="margin: 0 0 40px 0; padding: 0;">
+                            <img src="~/images/kategoriler/@imageName"
+                                 alt="@category"
+                                 style="max-width:100%; height:auto; border-radius:8px; display:block;" />
+                        </div>
+                    }
+
+
+                </div>
+
+                <div class="row">
+                    @if (Model != null && Model.Count > 0)
+                    {
+                        @foreach (var product in Model)
+                        {
+                            <div class="col-4">
+                                <a asp-controller="Product" asp-action="ProductDetails" asp-route-id="@product.Id" style="text-decoration:none; color:inherit;">
+                                    <img src="@product.ImagePath" alt="@product.Name" />
+                                    <h4>@product.Name</h4>
+                                    <p>@String.Format("{0:N2} TL", product.Price)</p>
+                                </a>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <p>Henüz ürün eklenmemiş.</p>
+                    }
+                </div>
+
+                <div class="page-btn">
+                    @{
+                        int currentPage = ViewData["CurrentPage"] != null ? (int)ViewData["CurrentPage"] : 1;
+                        int totalPages = ViewData["TotalPages"] != null ? (int)ViewData["TotalPages"] : 1;
+                        string currentCategory = ViewData["CurrentCategory"]?.ToString();
+
+                        for (int i = 1; i <= totalPages; i++)
+                        {
+                            if (i == currentPage)
+                            {
+                                <span>@i</span>
+                            }
+                            else
+                            {
+                                <a href="@Url.Action("Products", "Product", new { category = currentCategory == "Tüm Ürünler" ? null : currentCategory, page = i })">@i</a>
+                            }
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Uygulamamızı İndirin</h3>
+                    <p>Android veya IOS Cihazınıza Uygulamamızı İndirin.</p>
+                    <div class="app-logo">
+                        <img src="/images/play-store.png" />
+                        <img src="/images/app-store.png" />
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="/images/logo.png" />
+                    <p>Elektronik ürünlerde uygun fiyat ve garantili alışverişin adresi.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Hızlı Linkler</h3>
+                    <ul>
+                        <li>Kullanım Koşulları</li>
+                        <li>Sıkça Sorulan Sorular (SSS)</li>
+                        <li>Gizlilik Politikası</li>
+                        <li>İade ve Değişim Koşulları</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Bizi Takip Edin</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr />
+            <p class="haklar">© 2025 Shopla. Tüm hakları saklıdır.</p>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tüm Ürünler - Shopla</title>
+    <link rel="stylesheet" href="~/style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="~/images/logo.png" width="125px"> 
+            </div>
+            <nav>
+                <nav>
+                    <ul>
+                        <li><a href="@Url.Action("Index", "Home")">Ana Sayfa</a></li>
+                        <li><a href="@Url.Action("Products", "Product")">Ürünler</a></li>
+                        <li><a href="@Url.Action("iletisim", "Home")">İletişim</a></li>
+                        <li><a href="@Url.Action("Orders", "Order")">Siparişlerim</a></li>
+
+
+                        @if (ViewData["Username"] != null)
+                        {
+                            <li style="font-weight:bold; color:cornflowerblue;">Hoşgeldin, @ViewData["Username"]!</li>
+                            <li><a href="@Url.Action("Logout", "Account")">Çıkış Yap</a></li>
+                        }
+                        else
+                        {
+                            <li><a href="@Url.Action("Account", "Account")">Hesap</a></li>
+                        }
+                    </ul>
+                </nav>
+
+            </nav>
+            <a href="/Cart/Cart" class="cart-icon">
+                <i class="fa fa-shopping-bag"></i> Sepetim
+                @if (ViewBag.CartItemCount != null && ViewBag.CartItemCount > 0)
+                {
+                    <span class="cart-count">@ViewBag.CartItemCount</span>
+                }
+            </a>
+
+        </div>
+    </div>
+
+
+    <div class="account-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="~/images/banner.png" width="100%">
+                </div>
+                <div class="col-2">
+                    <div class="form-container">
+                        <div class="form-btn">
+                            <span onclick="login()">Giriş Yap</span>
+                            <span onclick="register()">Kayıt Ol</span>
+                            <hr id="Indicator">
+                        </div>
+                        <form id="LoginForm" method="post" asp-controller="Account" asp-action="Login">
+                            @if (!ViewData.ModelState.IsValid)
+                            {
+                                <div style="color:red; font-weight:bold; margin-bottom:10px;">
+                                    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                                    {
+                                        <div>@error.ErrorMessage</div>
+                                    }
+                                </div>
+                            }
+
+                            <input type="text" name="username" placeholder="Kullanıcı Adı" required />
+                            <input type="password" name="password" placeholder="Şifre" required />
+                            <button type="submit" class="btn">Giriş Yap</button>
+                        </form>
+
+
+
+                        <form id="RegForm" method="post" asp-action="Register" asp-controller="Account">
+                            <input type="text" name="Username" placeholder="Kullanıcı Adı" required>
+                            <input type="email" name="Email" placeholder="E-Posta" required>
+                            <input type="password" name="Password" placeholder="Şifre" required>
+                            <button type="submit" class="btn">Kayıt Ol</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Uygulamamızı İndirin</h3>
+                    <p>Android veya IOS Cihazınıza Uygulamamızı İndirin.</p>
+                    <div class="app-logo">
+                        <img src="/images/play-store.png" />
+                        <img src="/images/app-store.png" />
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="/images/logo.png" />
+                    <p>Elektronik ürünlerde uygun fiyat ve garantili alışverişin adresi.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Hızlı Linkler</h3>
+                    <ul>
+                        <li>Kullanım Koşulları</li>
+                        <li>Sıkça Sorulan Sorular (SSS)</li>
+                        <li>Gizlilik Politikası</li>
+                        <li>İade ve Değişim Koşulları</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Bizi Takip Edin</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr />
+            <p class="haklar">© 2025 Shopla. Tüm hakları saklıdır.</p>
+        </div>
+    </div>
+
+    <script>
+
+        var LoginForm = document.getElementById("LoginForm");
+        var RegForm = document.getElementById("RegForm");
+        var Indicator = document.getElementById("Indicator");
+
+        function register() {
+            RegForm.style.transform = "translateX(0px)"
+            LoginForm.style.transform = "translateX(0px)"
+            Indicator.style.transform = "translateX(100px)"
+        }
+        function login() {
+            RegForm.style.transform = "translateX(300px)"
+            LoginForm.style.transform = "translateX(300px)"
+            Indicator.style.transform = "translateX(0px)"
+
+        }
+                window.onload = function () {
+            var showLogin = '@ViewData["ShowLogin"]';
+            if (showLogin === 'True') {
+                login();
+            }
+        };
+              
+
+    </script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+﻿@model sitesondeneme.Models.Product
+@{
+    ViewData["Title"] = "Yönetim Paneli";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Yönetim Paneli</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <style>
+        body {
+            background: radial-gradient(#fff, #ffd6d6);
+            padding: 40px;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .form-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            max-width: 600px;
+            margin: auto;
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #333;
+        }
+
+        .form-group label {
+            font-weight: 600;
+        }
+
+        .btn-primary {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .text-danger {
+            font-size: 14px;
+        }
+
+        table {
+            background-color: white;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .action-btns {
+            display: flex;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="text-right mb-3">
+        <a href="/Product/Products" class="btn btn-danger">Ürünler</a>
+    </div>
+
+
+
+
+    <div class="form-container">
+        <h2>Yeni Ürün Ekle</h2>
+        <form asp-action="AddProduct" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="Name">Ürün Adı:</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Price">Fiyat (₺):</label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Category">Kategori:</label>
+                <input asp-for="Category" class="form-control" />
+                <span asp-validation-for="Category" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="MainImage">Ana Görsel:</label>
+                <input type="file" name="MainImage" class="form-control-file" />
+            </div>
+
+            <div class="form-group">
+                <label for="Image1">Ek Görsel 1:</label>
+                <input type="file" name="Image1" class="form-control-file" />
+            </div>
+
+            <div class="form-group">
+                <label for="Image2">Ek Görsel 2:</label>
+                <input type="file" name="Image2" class="form-control-file" />
+            </div>
+
+            <div class="form-group">
+                <label for="Image3">Ek Görsel 3:</label>
+                <input type="file" name="Image3" class="form-control-file" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Description">Açıklama:</label>
+                <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Ürünü Ekle</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <h2 class="text-center mb-4">Mevcut Ürünler</h2>
+
+        <table class="table table-bordered table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Ad</th>
+                    <th>Fiyat</th>
+                    <th>Kategori</th>
+                    <th>Satıcı</th>
+                    <th>Açıklama</th>
+                    <th>İşlemler</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in ViewBag.AllProducts as List<sitesondeneme.Models.Product>)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Price ₺</td>
+                        <td>@item.Category</td>
+                        <td>@item.Username</td> 
+                        <td>@item.Description?.Substring(0, Math.Min(30, item.Description.Length))...</td>
+                        <td class="action-btns">
+                            <a asp-action="EditProduct" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Düzenle</a>
+                            <form asp-action="DeleteProduct" asp-route-id="@item.Id" method="post" onsubmit="return confirm('Silmek istediğinize emin misiniz?');">
+                                <button type="submit" class="btn btn-danger btn-sm">Sil</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

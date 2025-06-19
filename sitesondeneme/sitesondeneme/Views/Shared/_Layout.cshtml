@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] Shopla Hoşgeldiniz.</title>
+
+    <!-- Font Awesome -->
+    @Html.Raw("<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/all.min.css' />")
+
+    <style>
+        /* Sağ üst köşe için basit stil */
+        .admin-panel-link {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background-color: #f44336;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-weight: bold;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+        }
+
+            .admin-panel-link:hover {
+                background-color: #d32f2f;
+            }
+    </style>
+</head>
+<body>
+    @{
+        bool isAdmin = ViewData["IsAdmin"] != null && (bool)ViewData["IsAdmin"];
+    }
+
+    @if (isAdmin)
+    {
+        <a href="@Url.Action("AddProduct", "Product")" class="admin-panel-link">
+            <i class="fas fa-user-shield"></i> Yönetim Paneli
+        </a>
+    }
+
+
+
+    @RenderBody()
+</body>
+</html>

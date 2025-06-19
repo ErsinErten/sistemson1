@@ -1,0 +1,358 @@
+﻿@model List<sitesondeneme.Models.CartItem>
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Sepetim - Shopla</title>
+    <link rel="stylesheet" href="~/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .modal-content {
+            background-color: #fff;
+            margin: 10% auto;
+            padding: 20px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 400px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            font-family: 'Poppins', sans-serif;
+        }
+
+            .modal-content input {
+                width: 100%;
+                padding: 8px;
+                margin: 8px 0;
+            }
+
+            .modal-content .btn {
+                width: 100%;
+                background-color: #ff523b;
+                color: white;
+                padding: 10px;
+                border: none;
+                margin-top: 10px;
+                cursor: pointer;
+            }
+
+                .modal-content .btn:hover {
+                    background-color: #e14b2e;
+                }
+
+        .close {
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        #creditCard {
+            width: 320px;
+            height: 190px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border-radius: 15px;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            padding: 20px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+            margin-bottom: 20px;
+            position: relative;
+            transition: all 0.3s ease;
+            user-select: none;
+        }
+
+            #creditCard .card-number {
+                font-size: 22px;
+                letter-spacing: 3px;
+                margin-bottom: 30px;
+            }
+
+            #creditCard .card-holder, #creditCard .card-expiry {
+                font-size: 16px;
+                text-transform: uppercase;
+                letter-spacing: 1.5px;
+            }
+
+            #creditCard .card-holder {
+                position: absolute;
+                bottom: 30px;
+                left: 20px;
+            }
+
+            #creditCard .card-expiry {
+                position: absolute;
+                bottom: 30px;
+                right: 20px;
+            }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="~/images/logo.png" width="125px"> 
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="@Url.Action("Index", "Home")">Ana Sayfa</a></li>
+                    <li><a href="@Url.Action("Products", "Product")">Ürünler</a></li>
+                    <li><a href="@Url.Action("iletisim", "Home")">İletişim</a></li>
+                    <li><a href="@Url.Action("Orders", "Order")">Siparişlerim</a></li>
+
+                    @if (ViewData["Username"] != null)
+                    {
+                        <li style="font-weight:bold; color:cornflowerblue;">Hoşgeldin, @ViewData["Username"]!</li>
+                        <li><a href="@Url.Action("Logout", "Account")">Çıkış Yap</a></li>
+                    }
+                    else
+                    {
+                        <li><a href="@Url.Action("Account", "Account")">Hesap</a></li>
+                    }
+                </ul>
+            </nav>
+            <a href="/Cart/Cart" class="cart-icon">
+                <i class="fa fa-shopping-bag"></i> Sepetim
+                @if (ViewBag.CartItemCount != null && ViewBag.CartItemCount > 0)
+                {
+                    <span class="cart-count">@ViewBag.CartItemCount</span>
+                }
+            </a>
+        </div>
+    </div>
+
+    <div class="small-container cart-page">
+        <h2>Sepetim</h2>
+
+        <table>
+            <tr>
+                <th>Ürün</th>
+                <th>Adet</th>
+                <th>Ara Toplam</th>
+                <th>İşlem</th>
+            </tr>
+
+            @if (Model != null && Model.Any())
+            {
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <div class="cart-info">
+                                <img src="@item.Product.ImagePath" width="100" />
+                                <div>
+                                    <p>@item.Product.Name</p>
+                                    <small>Fiyat: @item.Product.Price TL</small>
+                                </div>
+                            </div>
+                        </td>
+                        <td>@item.Quantity</td>
+                        <td>@(item.Product.Price * item.Quantity) TL</td>
+                        <td>
+                            <form asp-action="RemoveFromCart" method="post">
+                                <input type="hidden" name="cartItemId" value="@item.Id" />
+                                <button type="submit" class="btn">Kaldır</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="4">Sepetinizde ürün bulunmamaktadır.</td>
+                </tr>
+            }
+        </table>
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td><strong>Toplam:</strong></td>
+                    <td>
+                        @{
+                            var total = Model?.Sum(i => i.Product.Price * i.Quantity) ?? 0m;
+                        }
+                        @total TL
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div style="text-align: right; margin-top: 20px;">
+            <button class="btn" onclick="openModal()">Ödemeyi Tamamla</button>
+        </div>
+    </div>
+
+
+    <div id="paymentModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+
+            <div id="creditCard">
+                <div class="card-number">#### #### #### ####</div>
+                <div class="card-holder">İSİM SOYİSİM</div>
+                <div class="card-expiry">MM/YY</div>
+            </div>
+            <br>
+            <h2>Ödeme Bilgileri</h2>
+            <br />
+            <form id="fakePaymentForm" onsubmit="completePurchase(event)">
+                <label for="cardNumber">Kart Numarası:</label>
+                <input type="text" id="cardNumber" placeholder="0000 0000 0000 0000" required>
+
+                <label for="cardHolder">Kart Sahibi Adı:</label>
+                <input type="text" id="cardHolder" placeholder="İsim Soyisim" required>
+
+                <label for="expiry">Son Kullanma:</label>
+                <input type="text" id="expiry" placeholder="MM/YY" required>
+
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" placeholder="123" required>
+
+                <button type="submit" class="btn">Satın Al</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="successMessage" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Teşekkürler!</h2>
+            <p>Satın alma işleminiz başarıyla tamamlandı.</p>
+            <button class="btn" onclick="closeModal()">Kapat</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Uygulamamızı İndirin</h3>
+                    <p>Android ve IOS cihazlarınız için</p>
+                    <div class="app-logo">
+                        <img src="/images/play-store.png" />
+                        <img src="/images/app-store.png" />
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="/images/logo.png" />
+                    <p>Uygun fiyat ve güvenilir alışverişin adresi.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Hızlı Linkler</h3>
+                    <ul>
+                        <li>Kullanım Koşulları</li>
+                        <li>Gizlilik Politikası</li>
+                        <li>İade Koşulları</li>
+                        <li>Sık Sorulan Sorular</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Bizi Takip Edin</h3>
+                    <ul>
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr />
+            <p class="haklar">© 2025 Shopla. Tüm hakları saklıdır.</p>
+        </div>
+    </div>
+
+    <script>
+        function openModal() {
+            document.getElementById("paymentModal").style.display = "block";
+        }
+        
+        function closeModal() {
+            document.getElementById("paymentModal").style.display = "none";
+            document.getElementById("successMessage").style.display = "none";
+        }
+
+        function completePurchase(event) {
+            event.preventDefault();
+
+            const card = document.getElementById("cardNumber").value.replace(/\s+/g, '');
+            const expiry = document.getElementById("expiry").value;
+            const cvv = document.getElementById("cvv").value;
+
+            if (card.length === 16 && /^\d{2}\/\d{2}$/.test(expiry) && cvv.length === 3) {
+                fetch("/Order/CompleteOrder", {
+                    method: "POST"
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        document.getElementById("paymentModal").style.display = "none";
+                        document.getElementById("successMessage").style.display = "block";
+                        setTimeout(() => location.reload(), 2000);
+                    } else {
+                        alert("Bir hata oluştu. Lütfen tekrar deneyin.");
+                    }
+                });
+            } else {
+                alert("Lütfen bilgileri doğru formatta doldurun.");
+            }
+        }
+
+        window.onclick = function(event) {
+            const modal = document.getElementById("paymentModal");
+            const success = document.getElementById("successMessage");
+            if (event.target === modal) modal.style.display = "none";
+            if (event.target === success) success.style.display = "none";
+        }
+
+        document.getElementById("cardNumber").addEventListener("input", function (e) {
+            let value = e.target.value.replace(/\D/g, "").substring(0, 16);
+            let formatted = value.replace(/(.{4})/g, "$1 ").trim();
+            e.target.value = formatted;
+
+            document.querySelector("#creditCard .card-number").textContent = formatted || "#### #### #### ####";
+        });
+
+        document.getElementById("expiry").addEventListener("input", function (e) {
+
+            let value = e.target.value.replace(/[^\d]/g, "").substring(0, 4);
+            if (value.length >= 3) {
+                value = value.substring(0, 2) + "/" + value.substring(2);
+            }
+            e.target.value = value;
+
+            document.querySelector("#creditCard .card-expiry").textContent = value || "MM/YY";
+        });
+
+
+        document.getElementById("cvv").addEventListener("input", function (e) {
+            e.target.value = e.target.value.replace(/\D/g, "").substring(0, 3);
+        });
+
+
+        document.getElementById("cardHolder").addEventListener("input", function (e) {
+            let value = e.target.value.toUpperCase().replace(/[^A-ZĞÜŞİÖÇ\s]/g, "");
+            e.target.value = value;
+            document.querySelector("#creditCard .card-holder").textContent = value || "İSİM SOYİSİM";
+        });
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,185 @@
+﻿@{
+    Layout = null;
+}
+@model sitesondeneme.Models.User
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@Model.Username - Satıcı Profili</title>
+    <link rel="stylesheet" href="~/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+        .profile-header {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+            .profile-header img {
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+                object-fit: cover;
+                border: 4px solid #ff523b;
+            }
+
+            .profile-header h2 {
+                margin-top: 20px;
+                font-size: 26px;
+                color: #333;
+            }
+
+        .product-listing {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 40px;
+        }
+
+        .product-card {
+            background: #fff;
+            border-radius: 10px;
+            padding: 15px;
+            width: 250px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+            .product-card:hover {
+                transform: translateY(-5px);
+            }
+
+            .product-card img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 8px;
+            }
+
+            .product-card h4 {
+                margin: 10px 0 5px;
+                font-size: 18px;
+            }
+
+            .product-card p {
+                color: #555;
+                font-size: 16px;
+            }
+    </style>
+</head>
+<body style="background: radial-gradient(#fff, #ffd6d6);">
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="~/images/logo.png" width="125px"> 
+            </div>
+            <nav>
+                <nav>
+                    <ul>
+                        <li><a href="@Url.Action("Index", "Home")">Ana Sayfa</a></li>
+                        <li><a href="@Url.Action("Products", "Product")">Ürünler</a></li>
+                        <li><a href="@Url.Action("iletisim", "Home")">İletişim</a></li>
+                        <li><a href="@Url.Action("Orders", "Order")">Siparişlerim</a></li>
+
+
+                        @if (ViewData["Username"] != null)
+                        {
+                            <li style="font-weight:bold; color:cornflowerblue;">Hoşgeldin, @ViewData["Username"]!</li>
+                            <li><a href="@Url.Action("Logout", "Account")">Çıkış Yap</a></li>
+                        }
+                        else
+                        {
+                            <li><a href="@Url.Action("Account", "Account")">Hesap</a></li>
+                        }
+                    </ul>
+                </nav>
+
+            </nav>
+            <a href="/Cart/Cart" class="cart-icon">
+                <i class="fa fa-shopping-bag"></i> Sepetim
+                @if (ViewBag.CartItemCount != null && ViewBag.CartItemCount > 0)
+                {
+                    <span class="cart-count">@ViewBag.CartItemCount</span>
+                }
+            </a>
+
+
+        </div>
+    </div>
+
+    <div class="small-container">
+        <div class="profile-header" style="text-align: center; margin-bottom: 40px;">
+            <h2 style="margin: 15px auto; padding: 10px 20px; border: 2px solid #ff523b; display: inline-block; border-radius: 8px;">
+                @Model.Username Mağazası
+            </h2>
+        </div>
+
+        </div>
+
+        <div class="product-listing">
+            @if (Model.Products != null && Model.Products.Count > 0)
+            {
+                foreach (var product in Model.Products)
+                {
+                    <div class="product-card">
+                        <a asp-controller="Product" asp-action="ProductDetails" asp-route-id="@product.Id">
+                            <img src="@product.ImagePath" alt="@product.Name" />
+                            <h4>@product.Name</h4>
+                            <p>@String.Format("{0:N2} TL", product.Price)</p>
+                        </a>
+                    </div>
+                }
+            }
+            else
+            {
+                <p style="text-align:center; font-size:18px; color:#666;">Bu satıcı henüz ürün eklememiş.</p>
+            }
+        </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Uygulamamızı İndirin</h3>
+                    <p>Android veya IOS Cihazınıza Uygulamamızı İndirin.</p>
+                    <div class="app-logo">
+                        <img src="/images/play-store.png" />
+                        <img src="/images/app-store.png" />
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="/images/logo.png" />
+                    <p>Elektronik ürünlerde uygun fiyat ve garantili alışverişin adresi.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Hızlı Linkler</h3>
+                    <ul>
+                        <li>Kullanım Koşulları</li>
+                        <li>Sıkça Sorulan Sorular (SSS)</li>
+                        <li>Gizlilik Politikası</li>
+                        <li>İade ve Değişim Koşulları</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Bizi Takip Edin</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr />
+            <p class="haklar">© 2025 Shopla. Tüm hakları saklıdır.</p>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Ödeme";
+}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <title>Ödeme</title>
+    <link rel="stylesheet" href="~/style.css" />
+</head>
+<body>
+    <div class="container">
+        <h2>Ödeme Sayfası</h2>
+        <form action="@Url.Action("CompletePurchase", "Order")" method="post" style="max-width: 400px;">
+            <label for="cardNumber">Kart Numarası:</label>
+            <input type="text" name="cardNumber" placeholder="0000 0000 0000 0000" class="input" required />
+
+            <label for="expiry">Son Kullanma Tarihi:</label>
+            <input type="text" name="expiry" placeholder="MM/YY" class="input" required />
+
+            <label for="cvv">CVV:</label>
+            <input type="text" name="cvv" placeholder="123" class="input" required />
+
+            <button type="submit" class="btn">Satın Al</button>
+        </form>
+    </div>
+</body>
+</html>
